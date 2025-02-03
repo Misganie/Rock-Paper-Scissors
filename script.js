@@ -35,3 +35,22 @@ function getHumanChoice() {
 
     return humanChoice
 }
+
+// Logic to play a single round
+function playRound(humanChoice, computerChoice) {
+    if (humanChoice == computerChoice) {
+        console.log("Draw");
+    }
+    else if ((humanChoice == 'Rock' && computerChoice == 'Paper') || (humanChoice == 'Paper' && computerChoice == 'Scissor') || (humanChoice == 'Scissor' && computerChoice == 'Rock')) {
+        console.log(`You lose! ${computerChoice} beats ${humanChoice}`);
+    }
+
+    else {
+        console.log(`You Win! ${humanChoice} beats ${computerChoice}`);
+    }
+}
+
+const humanSelection = getHumanChoice();
+const computerSelection = getComputerChoice();
+
+playRound(humanSelection, computerSelection);
