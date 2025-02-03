@@ -1,3 +1,7 @@
+// Declaring the players score variables
+let humanScore = 0;
+let computerScore = 0;
+
 // Logic to get the computer choice
 function getComputerChoice() {
     let randomInt = Math.floor(Math.random() * 3);
