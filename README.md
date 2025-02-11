@@ -1,5 +1,9 @@
 # Rock-Paper-Scissors Game
 
+## Live Preview
+
+You can view the project live https://misganie.github.io/Rock-Paper-Scissors/
+
 ## Overview
 Rock-Paper-Scissors is a simple game where players choose one of three options: rock, paper, or scissors. The game is played between a player and the computer, each making a choice, and the winner is determined based on the rules of the game.
 
